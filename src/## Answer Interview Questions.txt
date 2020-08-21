@@ -1,0 +1,15 @@
+## Answer Interview Questions
+
+
+
+1. In 1-2 sentences, explain what React's `useRouteMatch` hook is used for.
+
+- 'useRouteMatch' hook is used for attempts to match the current URL, mostly useful for getting access to the match data without actually rendering a <Route>.
+
+1. How would you explain form validation to someone who has never programmed before?
+
+- Form Validation notify a message on the application form if user has not correctly filled out the informatio inside the form.
+
+1. In 1-2 sentences, define end to end testing.
+
+- End to end test is a testing method to check if the application workflow behavior from start to end. 
