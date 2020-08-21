@@ -19,6 +19,7 @@ const FormStyle = styled.div`
     font-size: 4rem;
     color: #fefae0;
     letter-spacing: 1.3rem;
+    font-family: 'Permanent Marker', cursive;
   }
 `;
 export default function Form(props) {
@@ -53,9 +54,9 @@ export default function Form(props) {
       </Link>
       <form className="form" onSubmit={onSubmit}>
         <div>{errors.username}</div>
-        {/* <div>{errors.address}</div>
+        <div>{errors.address}</div>
         <div>{errors.size}</div>
-        <div>{errors.topping}</div> */}
+        <div>{errors.topping}</div>
         <h1>Make your own Pizza</h1>
         <label>
           <h3>User Name</h3>
